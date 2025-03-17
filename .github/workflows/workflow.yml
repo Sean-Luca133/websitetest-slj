@@ -10,7 +10,7 @@ jobs:
         steps:
           - name: Checkout repository code into runner
             uses: actions/checkout@v2
-            name: Check HTML and CSS with HTML5 Validator
+          - name: Check HTML and CSS with HTML5 Validator
             uses: Cyb3r-Jak3/html5validator-action@v7.2.0
             with:
               root: ./
